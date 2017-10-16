@@ -12,7 +12,7 @@ var _ = Resource("meetings", func() {
 	DefaultMedia(media.MeetingType)
 	BasePath("/meetings")
 	Action("meetings", func() {
-		Description("meetings")
+		Description("http://kokkai.ndl.go.jp/api.html")
 		Routing(
 			GET(""),
 		)
