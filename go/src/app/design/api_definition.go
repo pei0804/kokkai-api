@@ -11,22 +11,11 @@ import (
 	. "github.com/goadesign/goa/design/apidsl"
 )
 
-var _ = API("pei0804/goa-docker-stater", func() {
-	Title("pei0804/goa-docker-stater")
-	Description("pei0804/goa-docker-stater")
-	Contact(func() {
-		Name("pei")
-		Email("peeeei0804@gmail.com")
-		URL("https://github.com/pei0804/goa-docker-stater/issues")
-	})
-	License(func() {
-		Name("MIT")
-		URL("")
-	})
-	Docs(func() {
-		Description("wiki")
-		URL("")
-	})
+const REPO = "parliament"
+
+var _ = API(REPO, func() {
+	Title(REPO)
+	Description(REPO)
 	Host(func() string {
 		switch os.Getenv("Op") {
 		case "develop":

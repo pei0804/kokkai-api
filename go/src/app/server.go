@@ -28,9 +28,12 @@ func NewServer(s *goa.Service) *Server {
 }
 
 func (s *Server) mountController() {
-	// Mount "example" controller
-	example := controller.NewExampleController(s.service)
-	app.MountExampleController(s.service, example)
+	// Mount "meetings" controller
+	meetings := controller.NewMeetingsController(s.service)
+	app.MountMeetingsController(s.service, meetings)
+	// Mount "speeches" controller
+	speeches := controller.NewSpeechesController(s.service)
+	app.MountSpeechesController(s.service, speeches)
 	// Mount "swagger" controller
 	swagger := controller.NewSwaggerController(s.service)
 	app.MountSwaggerController(s.service, swagger)

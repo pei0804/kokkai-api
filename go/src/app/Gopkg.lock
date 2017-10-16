@@ -28,8 +28,8 @@
 [[projects]]
   name = "github.com/dimfeld/httptreemux"
   packages = ["."]
-  revision = "f8d6d78a3e093c21a8b12df8e498df5458024086"
-  version = "v4.1.0"
+  revision = "8cc36ee10f84b82d0742ffcab770815c7d3f9ad7"
+  version = "v5.0.0"
 
 [[projects]]
   name = "github.com/goadesign/goa"
@@ -101,7 +101,7 @@
   branch = "master"
   name = "github.com/spf13/cobra"
   packages = ["."]
-  revision = "83b1f039622680cde7a373eb1f85e10db8506673"
+  revision = "7b2c5ac9fc04fc5efafb60700713d4fa609b777b"
 
 [[projects]]
   name = "github.com/spf13/pflag"
@@ -125,7 +125,7 @@
   branch = "master"
   name = "golang.org/x/tools"
   packages = ["go/ast/astutil"]
-  revision = "0b88a3aa0751a3accc5cadec90e6c9bc88e8219e"
+  revision = "9bd2f442688b66c5289262d70f537c2ecf81d7de"
 
 [solve-meta]
   analyzer-name = "dep"
