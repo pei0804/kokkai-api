@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  branch = "default"
-  name = "bitbucket.org/pkg/inflect"
-  packages = ["."]
-  revision = "8961c3750a47b8c0b3e118d52513b97adf85a7e8"
-
-[[projects]]
   branch = "master"
   name = "github.com/armon/go-metrics"
   packages = ["."]
@@ -33,15 +27,9 @@
 
 [[projects]]
   name = "github.com/goadesign/goa"
-  packages = [".","client","cors","design","design/apidsl","dslengine","goagen/codegen","goagen/utils","goatest","middleware","uuid","version"]
+  packages = [".","client","cors","design","design/apidsl","dslengine","goatest","middleware","uuid"]
   revision = "5646a430cdeb66983d5ace3384e0a667c185abc7"
   version = "v1.3.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/goadesign/gorma"
-  packages = [".","dsl"]
-  revision = "90f8b3a6fed61b5b2d07036032b393c34e599d4d"
 
 [[projects]]
   branch = "master"
@@ -60,30 +48,6 @@
   packages = ["."]
   revision = "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75"
   version = "v1.0"
-
-[[projects]]
-  name = "github.com/jinzhu/gorm"
-  packages = ["."]
-  revision = "5174cc5c242a728b435ea2be8a2f7f998e15429b"
-  version = "v1.0"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/jinzhu/inflection"
-  packages = ["."]
-  revision = "1c35d901db3da928c72a72d8458480cc9ade058f"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/kr/pretty"
-  packages = ["."]
-  revision = "cfb55aafdaf3ec08f0db22699ab822c50091b1c4"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/kr/text"
-  packages = ["."]
-  revision = "7cafcd837844e784b526369c9bce262804aebc60"
 
 [[projects]]
   branch = "master"
@@ -121,15 +85,9 @@
   packages = ["context","websocket"]
   revision = "a04bdaca5b32abe1c069418fb7088ae607de5bd0"
 
-[[projects]]
-  branch = "master"
-  name = "golang.org/x/tools"
-  packages = ["go/ast/astutil"]
-  revision = "9bd2f442688b66c5289262d70f537c2ecf81d7de"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2353fde74a1dd5e7e69bdb937f5dbbcdc489d1480cea402c6fff1f62c4766491"
+  inputs-digest = "1066b99cbc422f022bc45530267235e40427ed796c4a5e199918a907552805be"
   solver-name = "gps-cdcl"
   solver-version = 1
