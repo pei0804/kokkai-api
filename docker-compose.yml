@@ -14,4 +14,4 @@ services:
       - .env
     ports:
       - 8080:8080
-    container_name: plus-api
+    container_name: api
